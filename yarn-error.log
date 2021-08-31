@@ -1,0 +1,38 @@
+Arguments: 
+  D:\Software\nodejs\node.exe D:\Software\nodejs\Yarn\bin\yarn.js add -D ts-node typescript
+
+PATH: 
+  D:\Software\cmder\vendor\git-for-windows\mingw64\bin;D:\Software\cmder\vendor\git-for-windows\usr\bin;C:\Users\11\bin;D:\Program Files (x86)\NetSarang\Xftp 6;D:\Program Files (x86)\NetSarang\Xshell 6;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\Program Files (x86)\Java\jdk-1.8.0_65\bin;D:\Program Files (x86)\MySQL\mysql-8.0.15-winx64\bin;C:\Program Files\Microsoft\Web Platform Installer;D:\Program Files (x86)\Bitvise SSH Client;D:\Program Files (x86)\HBuilder.7.5.1.windows\HBuilder\tools\1.0.31;D:\Program Files (x86)\hugo_extended_0.81.0_Windows-64bit\bin;D:\Software\nodejs;D:\Software\nodejs\Yarn\bin;C:\Program Files\Git\cmd;D:\Program Files (x86)\Anaconda3;D:\Program Files (x86)\Anaconda3\Library\mingw-w64\bin;D:\Program Files (x86)\Anaconda3\Library\usr\bin;D:\Program Files (x86)\Anaconda3\Library\bin;D:\Program Files (x86)\Anaconda3\Scripts;C:\Users\11\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\JetBrains\PyCharm 2018.3.4\bin;D:\Program Files (x86)\JetBrains\WebStorm 2019.1.3\bin;D:\Program Files (x86)\JetBrains\ideaIU 2019.1.3\IntelliJ IDEA 2019.1.3\bin;D:\Program Files (x86)\Fiddler;D:\Program Files (x86)\Bandizip;D:\Program Files (x86)\Microsoft VS Code\bin;D:\Program Files (x86)\JetBrains\WebStorm 2020.2.3\bin;D:\Program Files (x86)\WebStorm 2020.1.2\bin;C:\Users\11\AppData\Roaming\npm;C:\Users\11\AppData\Local\Yarn\bin;D:\Program Files (x86)\mingw64\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 122.225.34.204:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+npm manifest: 
+  {
+    "name": "typescript-cmd",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
