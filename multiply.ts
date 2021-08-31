@@ -7,6 +7,6 @@
         console.error("Error!");
         process.exit(1);
     }
-    console.log(a - b);
+    console.log(a * b);
     process.exit(0);
 }
