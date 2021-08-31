@@ -4,8 +4,9 @@ let b: number = Number(process.argv[3]);
 
 if (Number.isNaN(a) || Number.isNaN(b)) {
     console.error("Error!");
-    process.exit();
+    process.exit(1);
 }
 console.log(a + b);
+process.exit(0);
 
 
